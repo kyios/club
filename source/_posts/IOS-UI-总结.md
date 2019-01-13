@@ -132,10 +132,10 @@ CALayer的display方法的内部实现,首先会判断layer的delegete是否响�
 
 ```mermaid
 graph TD
-A[&#91UIView setNeedDisplay&#93] 
-A-->B[&#91layer setNeedsDisplay&#93]
-B-->C[&#91CALayer display&#93]
-C-->D[&#91layer.delegate displayLayer&#93]
+A[UIView setNeedDisplay] 
+A-->B[layer setNeedsDisplay]
+B-->C[CALayer display]
+C-->D[layer.delegate displayLayer]
 D-->|YES| E[异步绘制入口]
 D-->|NO| F[系统绘制流程]
 E-->G[开始绘制]

@@ -103,9 +103,11 @@ mermaid: ## mermaid url https://github.com/knsv/mermaid
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
+
+
 deploy:
   type: git
-  repo: git@github.com:kyios/kyios.github.io.git
+  repo: https://github.com/kyios/kyios.github.io.git
   branch: master
-  message: [message]
+  message: 
 

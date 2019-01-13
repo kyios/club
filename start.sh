@@ -1,5 +1,5 @@
-hexo clean
+sudo hexo clean
 
-hexo g
+sudo hexo g
 
-hexo s
+sudo hexo s
