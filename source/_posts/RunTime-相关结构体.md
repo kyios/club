@@ -30,7 +30,7 @@ author: 奎宇
 `superClass` 指向`Class`,如果类对象指向父类。
 `cache` 代表方法缓存。
 `bits` 包含该类变量、属性、方法
-
+<!--more-->
 ## `isa_t`
 
 > C++ 中的共用体,在32（64）位是32（64）个 0 或者1数字
@@ -110,8 +110,8 @@ struct method_t {
 
 ![](https://kuiyu-1258489344.cos.ap-chengdu.myqcloud.com/RunTime-%E7%9B%B8%E5%85%B3%E7%BB%93%E6%9E%84%E4%BD%93/testmethod.png)
 
-![](/RunTime-相关结构体/20190113085645545.png)
+![](https://kuiyu-1258489344.cos.ap-chengdu.myqcloud.com/RunTime-%E7%9B%B8%E5%85%B3%E7%BB%93%E6%9E%84%E4%BD%93/20190113085645545.png)
 
-![](/RunTime-相关结构体/20190113085628224.png)
+![](https://kuiyu-1258489344.cos.ap-chengdu.myqcloud.com/RunTime-%E7%9B%B8%E5%85%B3%E7%BB%93%E6%9E%84%E4%BD%93/20190113085628224.png)
 
 
