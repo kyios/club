@@ -1,20 +1,19 @@
 #!/bin/bash
 
-sudo -s
 
-hexo clean
+sudo hexo clean
 
-hexo g
+sudo hexo g
 
-git pull origin master
+sudo git pull origin master
 
-hexo d
+sudo hexo d
 
-git add .
+sudo git add .
 
-git commit -m "upload"
+sudo git commit -m "upload"
 
-git push origin master
+sudo git push origin master
 
 
 
