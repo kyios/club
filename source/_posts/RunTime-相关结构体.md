@@ -106,11 +106,21 @@ struct method_t {
 - `imp` 无类型的函数指针，指向的是函数体
 
 #### Type Encodings `method_t`->`types` 
-![](https://kuiyu-1258489344.cos.ap-chengdu.myqcloud.com/RunTime-%E7%9B%B8%E5%85%B3%E7%BB%93%E6%9E%84%E4%BD%93/type%20Encodings.png)
 
 ![](https://kuiyu-1258489344.cos.ap-chengdu.myqcloud.com/RunTime-%E7%9B%B8%E5%85%B3%E7%BB%93%E6%9E%84%E4%BD%93/testmethod.png)
 
+![](https://kuiyu-1258489344.cos.ap-chengdu.myqcloud.com/RunTime-%E7%9B%B8%E5%85%B3%E7%BB%93%E6%9E%84%E4%BD%93/type%20Encodings.png)
+
+**Type Encodings**
+
+![](https://kuiyu-1258489344.cos.ap-chengdu.myqcloud.com/RunTime-%E7%9B%B8%E5%85%B3%E7%BB%93%E6%9E%84%E4%BD%93/typeencodings.png)
+
+### 结构体关系
+
+
 ![](https://kuiyu-1258489344.cos.ap-chengdu.myqcloud.com/RunTime-%E7%9B%B8%E5%85%B3%E7%BB%93%E6%9E%84%E4%BD%93/20190113085645545.png)
+
+### 继承关系
 
 ![](https://kuiyu-1258489344.cos.ap-chengdu.myqcloud.com/RunTime-%E7%9B%B8%E5%85%B3%E7%BB%93%E6%9E%84%E4%BD%93/20190113085628224.png)
 
